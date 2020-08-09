@@ -1,0 +1,122 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1)!important;
+    background:  linear-gradient(-45deg, #7f1bb4,#970890, #108eb4,#7655c4, #d44bb6,#5816af, #1150af)!important;
+    animation: gradient 7s infinite;
+    background-size: 700% 700%;
+    background-attachment: fixed;
+}
+.name_container {
+    margin-top: 170px;
+    text-align: center;
+}
+#enter {
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+#input {
+    width: 330px;
+    border-bottom: rgb(5, 76, 104) 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: none;
+    color: snow;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.btn {
+    margin-top: 80px!important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(17, 173, 173);
+    color: snow;
+    font-size: 18px!important;
+    font-family: 'Merienda', cursive;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.container1 {
+    margin: 60px auto;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgba(21, 240, 240, 0.2);
+    border: turquoise 2px solid;
+    box-shadow: 2px 10px 25px rgba(68, 233, 216, 0.8);
+    padding: 10px;
+}
+#paper {
+    color: rgb(174, 223, 223);
+    font-size: 32px;
+    font-family: s;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+#start {
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}    
+.btn-1 {
+    width: 534px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-family: 'Merienda', cursive;
+    font-weight: 400px;
+    font-size: 26px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    border-color:  rgba(68, 233, 216, 0.8);
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.btn-1:focus{
+    border-radius: 20px;
+    outline: 0;
+}
+.btn-1:hover{
+    background-color: rgba(68, 233, 216, 0.8);
+}
+.btn-2:focus{
+    outline: 0;
+}
+.active {
+    background-color: rgba(68, 233, 216, 0.8);
+}
+.btn-2 {
+    margin-top: 80px!important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:  rgba(68, 233, 216, 0.8);
+    color: snow;
+    font-size: 18px!important;
+    font-family: 'Merienda', cursive;
+    padding: 4px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
